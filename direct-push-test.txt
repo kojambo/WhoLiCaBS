@@ -1,0 +1,5 @@
+git checkout main
+echo "test" >> foo.txt
+git add foo.txt
+git commit -m "test commit"
+git push origin main
